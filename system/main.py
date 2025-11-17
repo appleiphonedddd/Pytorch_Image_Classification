@@ -54,7 +54,8 @@ if __name__ == "__main__":
     parser.add_argument('-sfn', "--save_folder_name", type=str, default='items')
     parser.add_argument('-fd', "--feature_dim", type=int, default=512)
     parser.add_argument('-mo', "--momentum", type=float, default=0.1)
-
+    parser.add_argument('-ldg', "--learning_rate_decay_gamma", type=float, default=0.99)
+    
     args = parser.parse_args()
 
     os.environ["CUDA_VISIBLE_DEVICES"] = args.device_id
