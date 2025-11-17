@@ -34,7 +34,7 @@ python generate_MNIST.py
 
 ### Extend new algorithms and datasets
 
-- **New Dataset**: To add a new dataset, simply create a `generate_DATA.py` file in `./dataset` and then write the download code and use the [utils](https://github.com/TsingZ0/PFLlib/tree/master/dataset/utils) as shown in `./dataset/generate_MNIST.py` (you can consider it as a template):
+- **New Dataset**: To add a new dataset, simply create a `generate_DATA.py` file in `./dataset` and then write the download code and use the [utils](dataset/utils) as shown in `./dataset/generate_MNIST.py` (you can consider it as a template):
   ```python
   # `generate_DATA.py`
   import necessary pkgs
